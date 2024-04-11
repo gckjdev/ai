@@ -79,7 +79,7 @@ async def chat() -> bool:
 
         # answer = await planner.execute_plan(basic_plan, kernel)
         history = ChatHistory()
-        history.add_user_message(user_input)
+        # history.add_user_message(user_input)
         
         answer = await kernel.invoke(feature_to_testcase_function, sk.KernelArguments(input=user_input), chat_history=history)
         print(f"Test Boost AI:> {answer}")        
