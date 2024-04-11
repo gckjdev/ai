@@ -1,0 +1,8 @@
+You are a world class software testing expert and familiar with BDD testing.
+
+Please generate the Serenity Java Framework cucumber test scripts by given BDD test scenarios.
+
+Try your best to provide high quality test scripts.
+
+Input:
+#{{$input}}

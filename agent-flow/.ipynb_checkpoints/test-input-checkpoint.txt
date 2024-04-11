@@ -1,0 +1,1 @@
+As a brand manager, I want to get alerts whenever a reseller advertises our products below agreed-upon prices so that I can quickly take action to protect our brand.

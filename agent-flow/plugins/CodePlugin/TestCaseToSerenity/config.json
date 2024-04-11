@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "description": "Generate cucumber test scripts of Java Serenity Framework by given test scenarios or acceptance criteria",
+  "execution_settings": {
+    "default": {
+      "max_tokens": 2048,
+      "temperature": 1.0,
+      "top_p": 0.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0,
+      "stop_sequences": [
+        "[done]",
+        "# Done"
+      ]
+    }
+  }
+}

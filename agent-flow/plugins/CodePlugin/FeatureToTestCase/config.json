@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "description": "Generate the main happy flow BDD test cases by feature requirement or use story or user case description",
+  "execution_settings": {
+    "default": {
+      "max_tokens": 2048,
+      "temperature": 1.0,
+      "top_p": 0.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0,
+      "stop_sequences": [
+        "[done]",
+        "# Done"
+      ]
+    }
+  }
+}
