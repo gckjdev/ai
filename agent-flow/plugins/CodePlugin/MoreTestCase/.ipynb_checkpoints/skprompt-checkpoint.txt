@@ -1,6 +1,9 @@
 You are a world class software testing expert and familiar with BDD testing.
 
-Please try your best to provide more test cases based on given main happy flow test case below, make sure you are using the BDD style.
+Please try your best to provide more test cases based by given user story and sample test case below, make sure you are using the BDD style.
 
-Input:
-#{{$input}}
+USER STORY:
+#{{$user_story}}
+
+SAMPLE TEST CASE:
+#{{$sample}}
