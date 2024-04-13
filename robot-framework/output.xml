@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.10.4 on linux)" generated="2024-04-12T09:20:11.188794" rpa="false" schemaversion="5">
-<suite id="s1" name="Example" source="/root/ai/robot-framework/example.robot">
-<test id="s1-t1" name="Example Test Case" line="2">
+<robot generator="Robot 7.0 (Python 3.10.4 on linux)" generated="2024-04-13T08:38:28.116685" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="/root/ai/robot-framework/test.robot">
+<test id="s1-t1" name="Example Test Case" line="5">
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-04-12T09:20:11.206057" level="INFO">Hello, Robot Framework!</msg>
+<msg time="2024-04-13T08:38:28.217002" level="INFO">Hello, Robot Framework!</msg>
 <arg>Hello, Robot Framework!</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-04-12T09:20:11.205928" elapsed="0.000176"/>
+<status status="PASS" start="2024-04-13T08:38:28.216831" elapsed="0.000227"/>
 </kw>
-<status status="PASS" start="2024-04-12T09:20:11.205399" elapsed="0.000834"/>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-13T08:38:31.217438" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-13T08:38:28.217222" elapsed="3.000362"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-04-13T08:38:31.218005" level="INFO">I am back!</msg>
+<arg>I am back!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-13T08:38:31.217839" elapsed="0.000229"/>
+</kw>
+<status status="PASS" start="2024-04-13T08:38:28.216015" elapsed="3.002221"/>
 </test>
-<status status="PASS" start="2024-04-12T09:20:11.189537" elapsed="0.017009"/>
+<status status="PASS" start="2024-04-13T08:38:28.117416" elapsed="3.101233"/>
 </suite>
 <statistics>
 <total>
@@ -19,7 +31,7 @@
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Example">Example</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test">Test</stat>
 </suite>
 </statistics>
 <errors>
